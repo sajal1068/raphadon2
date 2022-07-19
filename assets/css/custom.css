@@ -1037,7 +1037,7 @@ footer .secondary-menu a:hover {
 }
 
 .credits {
-  padding-top: 4rem;
+  padding-top:1rem;
   padding-bottom: 2rem;
 }
 
@@ -6354,3 +6354,36 @@ button:hover {
 .medical-tourism p{
   padding: auto 15px;
 }
+
+/*  footer  link */
+
+.footerLink ul{
+  width: 100%;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  justify-content:center;
+}
+.footerLink ul li{position: relative; } 
+.footerLink ul li::after{
+  content: '';
+    height: 14px;
+    background: #412F21;
+    width: 2px;
+    top: 9px;
+    right: 0;
+    position: absolute;
+} 
+.footerLink ul li:last-child:after{
+  content: none;
+}
+.footerLink ul li a{
+  padding:0 15px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+ }
