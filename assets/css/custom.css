@@ -855,14 +855,14 @@ body.nav-up header {
   left: 0;
   width: 170%;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .shape {
   height: 93vh;
   max-width: 100%;
   display: block;
-  transform: translateY(-38vh) scaleY(1);
+  transform: translateY(-34vh) scaleY(1);
 }
 
 .horizontal.shape-wrap {
@@ -3897,7 +3897,8 @@ figcaption,
   }
   .navbar-logo img {
     width: 6rem;
-    width: 199px;
+    max-width: 300px;
+    width:100%;
   }
   .navbar-ico {
     margin-left: 2rem;
@@ -3905,6 +3906,9 @@ figcaption,
 
     margin-left: 0.21rem;
     margin-right: 0.25rem;
+
+    position: relative;
+    top: -27px;
   }
   .navbar-ico img {
     width: 2.5rem;
@@ -4013,7 +4017,8 @@ footer .go-to-top {
   align-items: center;
   justify-content: center;
   transition: transform 2s cubic-bezier(0.16, 1.08, 0.38, 0.98);
-  z-index: 1;
+  z-index: 9999;
+  cursor: pointer;
 }
 .wave-white {
   position: absolute;
