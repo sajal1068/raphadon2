@@ -3867,7 +3867,14 @@ figcaption,
   }
   .navbar-logo img {
     width: 6rem;
-    width: 174px;
+    width: 260px;
+  }
+  .navbar-ico {  
+    position: relative;
+    top: -21px;
+  }
+  .shape {
+    height: 97vh;
   }
   .secondary-menu li {
       color: white;
@@ -3885,6 +3892,9 @@ figcaption,
 @media (min-width: 1400px) {
   .home footer {
     margin-top: -200px;
+  }
+  .shape {
+    height: 101vh;
   }
 }
 
@@ -3912,6 +3922,9 @@ figcaption,
   }
   .navbar-ico img {
     width: 2.5rem;
+  }
+  .shape {
+    height: 101vh;
   }
   /* Single Mood */
   .moods-single-page .page-block-content {
